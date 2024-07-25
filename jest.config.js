@@ -1,5 +1,7 @@
-module.exports = {
+const config = {
   preset: 'ts-jest',
-  module: 'CommonJS',
   testEnvironment: 'node',
+  module: 'CommonJS',
 };
+
+export default config;
